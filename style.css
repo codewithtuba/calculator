@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Dosis:wght@200&family=Heebo:wght@600&family=Josefin+Sans:wght@100;400&family=Lobster&family=Merriweather&family=Poppins:wght@300;400&family=Roboto+Slab:wght@100;400;500;700&family=Roboto:wght@500&family=Sansita+Swashed:wght@700&family=Style+Script&display=swap');
+
+body {
+   height: vh;
+   width: vw;
+   padding: 0;
+   margin: 0;
+   /* font-family: 'Baloo Bhai 2', cursive; */
+   font-family: 'Poppins', sans-serif;
+}
+.container{
+   background-color: lightblue;
+   height: 100vh;
+}
+.flex {
+   display: flex;
+   align-items: center;
+   align-content: center;
+}
+.flex-col {
+   flex-direction: column;
+}
+.row {
+   background-color: rgb(31, 85, 135);
+   padding: 3px;
+   display: grid;
+   grid-template-columns: repeat(4,58px);
+}
+ input {
+   grid-column: span 4;
+   height: 10vh;
+   background-color: rgb(3, 3, 153);
+   border: none;
+   border-radius: 12px;
+   /* box-shadow: inset -3px -3px 1px rgb(31, 85, 135),inset 3px 3px 1px rgb(31, 85, 135);
+   box-shadow: inset 3px 3px 1px rgb(31, 85, 135); */
+   
+   padding: 0px 0px;
+   padding-right: 7px;
+   cursor: pointer;
+   color: white;
+   text-align: end;
+   font-size: 25px;
+   font-family: 'Poppins', sans-serif;
+
+}
+::placeholder{
+   color: white;
+   /* padding-right: 7px; */
+}
+
+button {
+   background-color: rgb(169, 167, 222);
+   color: white;
+   padding: 10px 2px;
+   margin: 0px 2px;
+   border-radius: 5px;
+   border: none;
+   box-shadow: inset -2px -2px 1px  rgb(169, 167, 222), inset 2px 2px 1px  rgb(169, 167, 222);
+   font-size: 18px;
+}
+.equal {
+   grid-column: span 2;
+   background-color: rgb(241, 85, 28);
+   box-shadow: inset -2px -2px 1px  rgb(231, 113, 70), inset 2px 2px 1px  rgb(231, 113, 70);
+}
+h1 {
+  margin-bottom: 15px;
+}
